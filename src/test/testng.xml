@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Test Suite">
+    <test name="Facebook login tests">
+        <classes>
+            <class name="test.suites.login.successLoginDataDriven"/>
+            <class name="test.suites.login.FailureLoginDataDriven"/>
+        </classes>
+    </test>
+</suite>
